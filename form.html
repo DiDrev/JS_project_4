@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Form</title>
+</head>
+<body>
+		<form action="#">
+			<label for="title">Title</label><br>
+			<input type="text" id="title" name="title" placeholder=""><br><br>
+			<label for="description">Description</label><br>
+			<textarea name="description" id="description" cols="22" rows="5"></textarea><br><br>
+			<label for="ctgry">Category</label><br>
+			<input type="text" name="ctgry" id="ctgry"><br><br>
+			<label for="priority_level">Priority Level</label><br>
+			<select id="priority_level" name="priority">
+				<option value="Select an item">Select an item</option>
+				<option value="low">Low</option>
+				<option value="med">Med</option>
+				<option value="high">High</option>
+			</select><br><br>
+			<label for="progress_level">Progress Level</label><br>
+			<select id="progress_level" name="progress">
+				<option value="Select an item">Select an item</option>
+				<option value="pending">Pending</option>
+				<option value="completed">Completed</option>
+			</select><br><br>
+			<button type="submit">Submit</button>
+	</form>
+</body>
+</html>
